@@ -4,6 +4,6 @@
 
 ### How do I get set up? ###
 
-$ cordova plugin add https://github.com/wlnjtan/cordova-plugin-aliyunrtmp
+$ cordova plugin add https://github.com/wlnjtan/cordova-plugin-aliyunrtmp.git
 
 IOS开发需手动将AliyunPlayerSDK.framework引入XCode工程.
