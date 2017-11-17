@@ -1,0 +1,38 @@
+{
+  "name": "cordova-plugin-aliyunrtmp",
+  "version": "1.0.1",
+  "description": "Cordova RTMP of plugin",
+  "cordova": {
+    "id": "cordova-plugin-aliyunrtmp",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/mastema/cordova-plugin-aliyunrtmp"
+  },
+  "keywords": [
+    "cordova",
+    "aliyun",
+    "rtmp",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests"
+  },
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  }
+}
