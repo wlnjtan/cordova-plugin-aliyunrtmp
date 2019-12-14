@@ -75,7 +75,9 @@
         </config-file>
 
 		<!-- <source-file src="src/android/libs/Livestreaming.jar" target-dir="libs"/> -->
-		<source-file src="src/android/libs/armeabi-v7a" target-dir="libs"/>
+		<source-file src="src/android/libs/armeabi-v7a/libgnustl_shared.so" target-dir="libs/armeabi-v7a"/>
+		<source-file src="src/android/libs/armeabi-v7a/libqupai-media-jni.so" target-dir="libs/armeabi-v7a"/>
+		<source-file src="src/android/libs/armeabi-v7a/libqupai-media-thirdparty.so" target-dir="libs/armeabi-v7a"/>
 		<framework src="src/android/alivcliverecording" custom="true"/>
 		<source-file src="src/android/AliyunRTMP.java" target-dir="src/org/apache/cordova/aliyunrtmp" />
 		
