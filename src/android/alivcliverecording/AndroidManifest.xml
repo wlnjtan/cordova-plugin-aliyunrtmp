@@ -5,7 +5,7 @@
 
     <!-- 声明sdk版本 -->
     <uses-sdk
-      android:minSdkVersion="17"
+      android:minSdkVersion="22"
       android:targetSdkVersion="26" />
 
     <!-- 权限声明 -->
